@@ -7,7 +7,6 @@ await 'value';
 const createValue_wrong = () => 'value';
 await createValue_wrong();
 
-
 // Correct
 await Promise.resolve('value');
 const createValue_correct = async () => 'value';
